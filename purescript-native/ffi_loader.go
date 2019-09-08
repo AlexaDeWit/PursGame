@@ -23,6 +23,7 @@ import (
 	_ "github.com/purescript-native/go-ffi/purescript-st"
 	_ "github.com/purescript-native/go-ffi/purescript-strings"
 	_ "github.com/purescript-native/go-ffi/purescript-unfoldable"
-)
 
-// Add your own FFI packages here.
+	// Add your own FFI packages here.
+	_ "project.localhost/purescript-native/ffi-loader/lib"
+)

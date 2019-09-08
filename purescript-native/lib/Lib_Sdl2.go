@@ -2,7 +2,7 @@ package lib
 
 import (
 	// It FFI
-	_ "github.com/purescript-native/go-runtime"
+	. "github.com/purescript-native/go-runtime"
 	"github.com/veandco/go-sdl2/sdl"
 )
 
