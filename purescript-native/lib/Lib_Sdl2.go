@@ -9,6 +9,21 @@ import (
 func init() {
 	exports := Foreign("Lib.Sdl2")
 
+	exports["quit"] = func() Any {
+		sdl.Quit()
+		return nil
+	}
+
+	exports["initTimer"] = sdl.INIT_TIMER
+	exports["initAudio"] = sdl.INIT_AUDIO
+	exports["initVideo"] = sdl.INIT_VIDEO
+	exports["initJoystick"] = sdl.INIT_JOYSTICK
+	exports["initHaptic"] = sdl.INIT_HAPTIC
+	exports["initGamecontroller"] = sdl.INIT_GAMECONTROLLER
+	exports["initEvents"] = sdl.INIT_EVENTS
+	exports["initNoparachute"] = sdl.INIT_NOPARACHUTE
+	exports["initEverything"] = sdl.INIT_EVERYTHING
+
 	exports["doit"] = func() Any {
 		if err := sdl.Init(sdl.INIT_EVERYTHING); err != nil {
 			panic(err)
