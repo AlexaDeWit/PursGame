@@ -1,0 +1,4 @@
+github.com/purescript-native/go-ffi v0.0.0-20190906051550-897a1302fde3 h1:qOX9QbnGvRCFtw3z8IixnlbQ+0FG53lqUQXc8XXIXEU=
+github.com/purescript-native/go-ffi v0.0.0-20190906051550-897a1302fde3/go.mod h1:1TvaJdjRUFHRmoLQ5QvpR1pnivyd7eBjNA+j1PuktBM=
+github.com/purescript-native/go-runtime v0.0.0-20190907045917-ec626efcf4a1 h1:IUz6uZIjx6rNeadX18XTE2xmlku8YGoKt/+HisWq35U=
+github.com/purescript-native/go-runtime v0.0.0-20190907045917-ec626efcf4a1/go.mod h1:Pl7TR9c9Al8GMlY/R2D7joWjlQuTiB9eBN2a9aXd6GQ=
